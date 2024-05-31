@@ -1,0 +1,126 @@
+html {
+  font-family: "JetBrains Mono", monospace;
+  background-color: black;
+}
+
+#headingContainer {
+  display: flex;
+  flex-direction: column;
+  background-color: #373f47;
+  flex: 1;
+  text-align: center;
+}
+
+#headingContainer > h2 {
+  margin-top: 0px;
+}
+
+#aboutContainer {
+  display: flex;
+  background-color: #764242;
+  flex-direction: column;
+  flex: 1;
+  text-align: center;
+}
+
+#aboutContainer > p {
+  margin-top: 0px;
+  margin-left: 25px;
+  margin-right: 25px;
+}
+
+#skillContainer {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 25px;
+  flex: 1;
+  background-color: #b8433d;
+  justify-content: space-evenly;
+  gap: 25px;
+  align-items: center;
+}
+
+.skillBox {
+  border: 2px solid black;
+  min-width: 120px;
+  padding: 5px;
+  text-align: center;
+}
+
+ul {
+  list-style-type: none;
+  text-align: left;
+  margin-left: -25px;
+  margin-right: 10px;
+}
+
+img {
+  border: 2px solid black;
+  width: 100%;
+}
+
+img:hover {
+  transform: scale(1.1);
+}
+
+#projectContainer {
+  display: flex;
+  flex-wrap: wrap;
+  background-color: #d9655d;
+  flex: 1;
+  padding: 30px;
+  justify-content: space-evenly;
+  text-align: center;
+}
+
+.project {
+  max-width: 200px;
+}
+
+footer {
+  text-align: center;
+  background-color: #373f47;
+  color: white;
+}
+
+/* @media (max-width: 875px){
+    #projectContainer{
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .project{
+      max-width: 400px;
+    }
+}
+
+@media (max-width: 437px){
+    #skillContainer{
+        flex-direction: column;
+        gap: 25px;
+    }
+} */
+
+#skillTitle{
+  background-color: #b8433d;
+}
+
+#skillTitle > h3{
+  margin: 0px;
+  padding-top: 15px;
+  text-align: center;
+}
+
+#projectTitle{
+  background-color: #d9655d;
+}
+
+#projectTitle > h3{
+  margin: 0px;
+  padding-top: 15px;
+  text-align: center;
+}
+
+span{
+  color: white;
+}
